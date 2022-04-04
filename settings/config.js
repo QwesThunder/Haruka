@@ -2,9 +2,9 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 // self or public
-global.self = false //jadiin true klo gk mau fitur bot lu di pke sama org lain
+global.self = true //jadiin true klo gk mau fitur bot lu di pke sama org lain
 global.anticall = false
-global.anti_delete = false
+global.anti_delete = true
 
 // setting
 global.ownername ="ZeeoneOfc"
